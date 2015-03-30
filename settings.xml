@@ -5,7 +5,14 @@
 
     <servers>
         <server>
-            <id>deployment</id>
+            <id>gracenote-snapshot</id>
+            <username>deployment</username>
+            <password>deployment123</password>
+            <filePermissions>664</filePermissions>
+            <directoryPermissions>775</directoryPermissions>
+        </server>
+        <server>
+            <id>gracenote-releases</id>
             <username>deployment</username>
             <password>deployment123</password>
             <filePermissions>664</filePermissions>
