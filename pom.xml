@@ -20,7 +20,7 @@
     </distributionManagement>
 
     <scm>
-        <developerConnection>scm:git:gi t@github.com:bgulati/DeployTest.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:bgulati/DeployTest.git</developerConnection>
     </scm>
 
 </project>
