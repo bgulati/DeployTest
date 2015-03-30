@@ -21,4 +21,8 @@
         </snapshotRepository>
     </distributionManagement>
 
+    <scm>
+        <developerConnection>scm:git:git@github.com:bgulati/DeployTest.git</developerConnection>
+    </scm>
+
 </project>
