@@ -10,14 +10,28 @@
 
     <distributionManagement>
         <repository>
-            <id>gracenote-releases</id>
+            <id>deployment</id>
             <url>http://192.168.50.7:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>gracenote-snapshots</id>
+            <id>deployment</id>
             <url>http://192.168.50.7:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.2</version>
+                <configuration>
+                    <tagBase>https://github.com/bgulati/DeployTest.git</tagBase>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
     <scm>
         <developerConnection>scm:git:git@github.com:bgulati/DeployTest.git</developerConnection>
