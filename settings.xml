@@ -5,7 +5,7 @@
 
     <servers>
         <server>
-            <id>deployment</id>
+            <id>gracenote</id>
             <username>deployment</username>
             <password>deployment123</password>
             <filePermissions>664</filePermissions>
