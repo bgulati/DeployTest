@@ -10,11 +10,11 @@
 
     <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>gracenote</id>
             <url>http://192.168.50.6:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>gracenote</id>
             <url>http://192.168.50.6:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
