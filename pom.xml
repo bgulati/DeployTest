@@ -6,17 +6,6 @@
     <artifactId>jenkins</artifactId>
     <version>1.1-SNAPSHOT</version>
 
-    <distributionManagement>
-        <repository>
-            <id>gracenote</id>
-            <url>http://192.168.50.6:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>gracenote</id>
-            <url>http://192.168.50.6:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <plugin>
