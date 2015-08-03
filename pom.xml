@@ -4,7 +4,7 @@
 
     <groupId>tms-test</groupId>
     <artifactId>jenkins</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <build>
         <plugins>
